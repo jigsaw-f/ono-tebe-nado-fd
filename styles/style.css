@@ -9,7 +9,7 @@
 .navigation {
     justify-self: start;
 }
-.navigation-list{
+.navigation-list {
     list-style: circle;
     display: flex;
     gap: 28px;
@@ -56,14 +56,14 @@
                                          
 
          /* COVER */
-.cover{
+.cover {
     padding: 165px 50px 50px;
     margin-bottom: 180px;
     background-image: url("../images/lotus-flower.png");
     min-height: 757px;
     position: relative;
 }
-.overlay{
+.overlay {
     position: absolute;
     z-index: 1;
     inset: 0;
@@ -71,41 +71,41 @@
     pointer-events: none;
 }
                 /* ниже наверное лишний класс, подумываю его убрать*/
-.cover-content{
+.cover-content {
     position: relative;
     z-index: 2;
     font-family: 'Raleway';
     color: rgba(255, 255, 255, 1);
 
 }
-.cover-title{
+.cover-title {
     font-size: 100px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 30px;
 }
-.span-style:nth-child(1){
+.span-style:nth-child(1) {
     display: block;
     text-align: left;
     
 }
-.span-style:nth-child(2){
+.span-style:nth-child(2) {
     display: block;
     text-align: center;
     transform:translateX(18px) translateY(12px);
 }
-.span-style:nth-child(3){
+.span-style:nth-child(3) {
     display: block;
     text-align: right;
     transform:translateX(36px) translateY(32px);
 }
-.cover-description{
+.cover-description {
     display: flex;
     align-items: center;
     gap: 107px;
     margin-top: 142px;
 }
-.cover-text{
+.cover-text {
     font-size: 22px;
     font-weight: 400;
     word-spacing: 20px;
@@ -113,7 +113,7 @@
     text-transform: uppercase;
     white-space: nowrap;
 }
-.button{
+.button {
     padding: 11px 32px;
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 1);
@@ -129,29 +129,29 @@
 
 
         /* LOTS*/
-.lots{
+.lots {
     padding: 0 24px;
     margin-bottom: 120px;
 }
-.lots-title{
+.lots-title {
     font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
     padding-left: 40px;
     padding-bottom: 27px;
 }
-.lots-list{
+.lots-list {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
     gap: 25px;      
 }
-.lots-item{
+.lots-item {
     min-height: 596px;
     width: 334px;
 }
-.lots-card{
+.lots-card {
     position: relative;
     background-size: cover;
     background-position: center;
@@ -159,26 +159,19 @@
     height: 100%;
     width: 334px;
 }
-.lots-card-film{
+.lots-card-film {
     background-image: url("../images/photo.png");
 }
-.lots-card-book{
+.lots-card-book {
     background-image: url("../images/photo.jpg");
 }
-.lots-card-art{
+.lots-card-art {
     background-image: url("../images/photooo.png");
 }
-.lots-link{
+.lots-link {
     height: 100%; 
 }
-.overlay{
-    position: absolute;
-    z-index: 1;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.6);
-    pointer-events: none;
-}
-.lots-content{
+.lots-content {
     position: relative;
     z-index: 2;
     display: flex;
@@ -186,7 +179,7 @@
     min-height: 596px;
     padding: 48px 40px;
 }
-.lots-card-title{
+.lots-card-title {
     font-weight: 700;
     font-size: 22px;
     text-transform: uppercase;
@@ -195,14 +188,14 @@
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
 }
-.lots-card-text{
+.lots-card-text {
     font-weight: 400;
     font-size: 20px;
     text-transform: none;
     color: rgba(255, 255, 255, 1);
     margin-top: auto;
 }
-.lots-link-more{
+.lots-link-more {
     font-size: 20px;
     font-weight: 400;
     text-transform: none;
@@ -247,31 +240,31 @@
         }   
         есть такой вариант - здесь идеальное попадание по пикселям, 
         но как я поняла задание требует варианта ниже */
-.about{
+.about {
     padding: 0 24px;
     margin-bottom: 180px;
     display: grid;
     grid-template-columns: 334px 1fr;
     gap: 26px;
 }
-.about-image{
+.about-image {
     margin-left: 47px;
     margin-top: 35px;
     width: 240px;
 }
-.about-content{
+.about-content {
     display: flex;
     flex-direction: column;
     min-height: 449px;
     margin-top: 140px;
      max-width: 688px;  
 }
-.about-title{
+.about-title {
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
 }
-.about-text{
+.about-text {
     font-weight: 400;
     font-size: 20px;
     display: flex;
@@ -282,7 +275,7 @@
 
 
         /* FOOTER */
-.footer{
+.footer {
     padding: 0 50px 82px 50px;
     margin-bottom: 0;
     display: flex;
@@ -290,40 +283,39 @@
     align-items: flex-start;
     font-size: 18px;
 }
-.navigation-footer{
+.navigation-footer {
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.navigation-footer-link{
+.navigation-footer-link {
     text-transform: lowercase;
     text-decoration: underline;
     text-underline-offset: 4px;
     text-decoration-thickness: 1px;
 }
-.navigation-footer-item:first-child .navigation-footer-link{
+.navigation-footer-item:first-child .navigation-footer-link {
     text-decoration: none;
 }
-.socials{
+.socials {
     display: flex;
     gap: 48px;         
     list-style: none;
     align-items: center;
     justify-content: center;
 }
-.socials-item{
+.socials-item {
     height: 48px;
     width: 48px;
 }
-.socials-link{     
+.socials-link {     
     width: 48px;
     height: 48px;
 }
 .contacts-footer {
     font-weight: 400;
     font-size: 18px;
-    max-width: 240px;
     display: flex;
     flex-direction: column;
     gap: 4px;
