@@ -192,6 +192,7 @@
 
         .lots-link {
             height: 100%;
+            text-decoration: none;
         }
 
         .lots-content {
@@ -232,9 +233,6 @@
             display: block;
             padding-left: 40px;
             padding-top: 30px;
-        }
-        .lots-link {
-            text-decoration: none;
         }
 
         /* ABOUT */
